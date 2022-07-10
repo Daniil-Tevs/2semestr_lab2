@@ -65,7 +65,7 @@ void BUBBlE_SORT(std::vector<double> &mas,int n)
 }
 int main() {
     std::ofstream out("../output.txt");
-    int t=0,mass_N[4]={10,100,100000,1000000};
+    int t=0,mass_N[4]={1000,10000,100000,500000};
     while(t<3) {
         int N=mass_N[t];
         std::vector<long double> res;
